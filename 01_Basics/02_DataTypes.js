@@ -5,7 +5,7 @@
 
 // Primitive data-types
 let name = "Sudesh" // String data-type
-let age = 23 // Number data-type (Range of "number" data-type is 2^53)
+let age = 23 // number data-type (Range of "number" data-type is 2^53)
 // for greater than 2^53 "bigint" is used.(Trading, Banking sector)
 let isLoggedIn = true // Boolean data-type
 
