@@ -19,9 +19,7 @@ console.log("<------------------------------------>");
 
 
 
-
 // Reference (Non primitive):- 
-
 // Array, Objects(Important in JS), Functions  
 
 // Array
