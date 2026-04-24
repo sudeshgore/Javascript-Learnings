@@ -39,7 +39,9 @@
 // console.log(stringNumber);
 // console.log(typeof stringNumber); // dataType - string
 
-// *****************Operations*****************
+
+
+// <-------------Arithmetic Operations -------------->
 
 let value = 3
 let negValue = -value // assigning negative value
@@ -56,9 +58,10 @@ let negValue = -value // assigning negative value
 // console.log(Math.ceil(2/3)); // Ceiling value
 // console.log(Math.floor(2/3)); // floor value
 // console.log((2/3).toFixed(2)); // Give value upto two decimal places 
-
 // ---------------
 // console.log(2%3);
+
+
 
 // -----------String operations----------->
 
@@ -82,3 +85,26 @@ let negValue = -value // assigning negative value
 // console.log(str1);
 
 
+
+
+// <------------All follwing code's are bad practise, not considered readable----------------->
+
+// console.log("1" + 2); // 12
+// console.log(1 + "2"); // 12
+// console.log("1" + "2"); // 12
+// console.log("1" + 2 + 2); // 122
+// console.log(1 + 2 + "2"); // 32
+
+
+// Not readable
+let num1, num2, num3
+num1 = num2 = num3 = 2+2;
+
+// console.log(num1); // 4 
+// console.log(num2); // 4
+// console.log(num3); // 4
+
+
+let gameCounter = 100
+gameCounter++; // PostFix increament
+console.log(gameCounter);
