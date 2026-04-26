@@ -36,6 +36,6 @@ const gameName = new String('sudesh-sg-gore')
 
 // console.log(newStringThree.includes('sudesh'));
 
-console.log(gameName.split('-'));
+// console.log(gameName.split('-'));
 
 
